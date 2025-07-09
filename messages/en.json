@@ -1,0 +1,176 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Feel free to reach out with any questions. We're here to help.",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "placeholderName": "Your full name",
+    "placeholderPhone": "+998 90 123 4567",
+    "placeholderMessage": "Write your message..."
+  },
+  "hero": {
+    "titleTop": "Direct from",
+    "titleMakers": "Makers",
+    "titleMarket": "to Your Market",
+    "subtitle": "We connect you with trusted manufacturers and handle everything — sourcing, shipping, customs, and door-to-door delivery across Uzbekistan.",
+    "cta": "Get Started"
+  },
+
+  "ourStory": {
+    "title": "Our Story",
+    "paragraphs": [
+      "At importgoods.uz, we’ve redefined wholesale. Since our start, we've been helping brands connect with customers across borders — handling the toughest parts of the process so they don’t have to.",
+      "From international shipping to complex customs clearance and smooth door-to-door delivery, our team ensures every step is seamless.",
+      "We exist to remove friction, accelerate trust, and build long-term wholesale partnerships."
+    ],
+    "highlight": "Let’s grow together. Borderlessly."
+  },
+  "partnersSection": {
+    "title": "Trusted By",
+    "subtitle": "Brands and partners who’ve placed their confidence in importgoods.uz",
+    "button": "See More"
+  },
+  "servicesSection": {
+    "heading": "Everything You Need to Import Wholesale Goods",
+    "platformName": "importgoods.uz",
+    "description": "is your all-in-one B2B platform to source products from trusted global brands, import them seamlessly, and get them delivered to your door. Browse thousands of wholesale items, request quotes, and let us handle the rest — shipping, customs, storage, and delivery.",
+    "items": [
+      {
+        "title": "Source Products Online",
+        "subtitle": "Browse and import thousands of wholesale goods from trusted global brands — all in one place."
+      },
+      {
+        "title": "Global Shipping",
+        "subtitle": "We import directly from top manufacturers via air & sea."
+      },
+      {
+        "title": "Customs & Clearance",
+        "subtitle": "Full compliance and paperwork handled by our experts."
+      },
+      {
+        "title": "Local Delivery",
+        "subtitle": "Doorstep delivery to shops and businesses nationwide."
+      }
+    ]
+  },
+  "sourceCTA": {
+    "title": "Source Products Directly From Top Brands",
+    "description": "From skincare to kitchenware — access thousands of global products at wholesale prices. We handle everything from factory to front door.",
+    "points": [
+      "Trusted suppliers with verified stock",
+      "Air & sea shipping handled for you",
+      "Transparent pricing — no hidden fees",
+      "Door-to-door delivery across Uzbekistan"
+    ],
+    "button": "Start Sourcing Now",
+    "imageText": "Your supply chain, simplified. We handle sourcing, shipping, and delivery."
+  },
+  "nav": {
+    "title": "Import Goods",
+    "links": {
+      "catalog": "Wholesale Catalog",
+      "brands": "Brands",
+      "retailer": "Retailer",
+      "about": "About Us",
+      "careers": "Careers",
+      "services": "Services",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "button": "SOURCE PRODUCTS"
+  },
+  "register": {
+    "title": "Create Your Business Account",
+    "companyName": "Company Name",
+    "companyNamePlaceholder": "Your company name",
+    "phone": "Phone",
+    "phonePlaceholder": "Your phone number",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Create a password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "submit": "Register",
+    "submitting": "Registering...",
+    "passwordMismatch": "Passwords do not match",
+    "registrationFailed": "Registration failed",
+    "alreadyRegistered": "Already registered?",
+    "loginHere": "Login here"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "button": "Login",
+    "loggingIn": "Logging in...",
+    "noAccount": "Don’t have an account?",
+    "registerHere": "Register here",
+    "invalidCredentials": "Invalid login credentials."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password?",
+    "description": "Enter your email address and we’ll send you a link to reset your password.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "sendButton": "Send Reset Link",
+    "success": "✅ Reset link sent! Please check your inbox."
+  },
+  "resetPassword": {
+    "title": "Reset Your Password 🔐",
+    "description": "Enter a new password for your account.",
+    "newPasswordLabel": "New Password",
+    "newPasswordPlaceholder": "New password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "submit": "Reset Password",
+    "success": "✅ Password reset successful. Redirecting to login...",
+    "errorMismatch": "Passwords do not match"
+  },
+  "registerSuccess": {
+    "title": "Registration Successful 🎉",
+    "thanks": "Thank you for registering your business account.",
+    "review": "Your application is currently under review. We’ll notify you by email once it’s approved.",
+    "home": "Return to Home"
+  },
+  "accountPending": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "title": "Account Pending Approval",
+    "description": "Your account is currently under review. We will notify you once it's approved.",
+    "email": "Email",
+    "companyName": "Company Name",
+    "phone": "Phone Number",
+    "status": "Status",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "footer": {
+    "pages": "Pages",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterNote": "Join our mailing list:",
+    "subscribe": "Subscribe",
+    "channels": "Channels",
+    "address": "Olmazor district, Universitet MFY, 12-UY 7-Xonadon, Tashkent",
+    "email": "contract@importgoods.uz",
+    "phone": "+998 (90) 910 08 83",
+    "copyright": "All rights reserved.",
+    "links": {
+      "home": "Home",
+      "brands": "Brands",
+      "wholesale": "Wholesale"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Savollaringiz bo‘lsa, bemalol bog‘laning. Biz yordam beramiz.",
+    "name": "Ism",
+    "phone": "Telefon",
+    "message": "Xabar",
+    "send": "Xabar yuborish",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Elektron pochta",
+    "addressLabel": "Manzil",
+    "placeholderName": "To‘liq ismingiz",
+    "placeholderPhone": "+998 90 123 4567",
+    "placeholderMessage": "Xabaringizni yozing..."
+  },
+  "hero": {
+    "titleTop": "To'g'ridan-to'g'ri",
+    "titleMakers": "Ishlab chiqaruvchilardan",
+    "titleMarket": "sizing bozoringizgacha",
+    "subtitle": "Biz sizni ishonchli ishlab chiqaruvchilar bilan bog'laymiz va barcha jarayonlarni o'z zimmamizga olamiz — mahsulotni topish, yetkazish, bojxona va O'zbekiston bo'ylab yetkazib berish.",
+    "cta": "Boshlash"
+  },
+
+  "ourStory": {
+    "title": "Bizning Hikoyamiz",
+    "paragraphs": [
+      "Importgoods.uz kompaniyasida biz ulgurji savdoni yangicha talqinda taklif etamiz. Dastlabki kunimizdan boshlab brendlarni mijozlar bilan chegarasiz bog‘lab kelmoqdamiz — biz siz uchun eng murakkab jarayonlarni o‘z zimamizga olamiz.",
+      "Xalqaro yuk tashishdan tortib, murakkab bojxona rasmiylashtiruvi va eshikgacha yetkazib berishgacha — har bir bosqich silliq va muammosiz bajariladi.",
+      "Bizning maqsadimiz — to‘siqlarni yo‘qotish, ishonchni tezlashtirish va uzoq muddatli ulgurji hamkorliklarni barpo etish."
+    ],
+    "highlight": "Keling, birgalikda o'saylik. Chegaralarsiz."
+  },
+  "partnersSection": {
+    "title": "Bizga Ishonishganlar",
+    "subtitle": "Importgoods.uz xizmatiga ishonch bildirgan brendlar va hamkorlar",
+    "button": "Ko‘proq ko‘rish"
+  },
+  "servicesSection": {
+    "heading": "Ulgurji mahsulotlarni import qilish uchun hammasi shu yerda",
+    "platformName": "importgoods.uz",
+    "description": "ishonchli global brendlardan mahsulotlar import qilish, bojxona rasmiylashtiruvi, yetkazib berishgacha bo'lgan B2B platformangiz. Minglab mahsulotlarni ko‘rib chiqing, narx so‘rang va qolgan ishlarni bizga qoldiring.",
+    "items": [
+      {
+        "title": "Mahsulotlarni onlayn tanlang",
+        "subtitle": "Ishonchli global brendlardan minglab ulgurji mahsulotlarni toping va import qiling — barchasi bir joyda."
+      },
+      {
+        "title": "Xalqaro Yuk Tashish",
+        "subtitle": "Biz mahsulotlarni yetakchi ishlab chiqaruvchilardan havo va dengiz orqali olib kelamiz."
+      },
+      {
+        "title": "Bojxona va Ruxsatnomalar",
+        "subtitle": "Barcha hujjatlar va bojxona jarayonlari mutaxassislarimiz tomonidan hal qilinadi."
+      },
+      {
+        "title": "Mahalliy Yetkazib Berish",
+        "subtitle": "Butun O‘zbekiston bo‘ylab do‘kon va korxonalarga eshikkacha yetkazib berish."
+      }
+    ]
+  },
+  "sourceCTA": {
+    "title": "Mahsulotlarni yetakchi brendlardan to‘g‘ridan-to‘g‘ri import qiling",
+    "description": "Teri parvarishi mahsulotlaridan oshxona buyumlarigacha — minglab global mahsulotlarni ulgurji narxlarda oling. Zavoddan eshikgacha bo‘lgan jarayonni biz boshqaramiz.",
+    "points": [
+      "Ishonchli va tasdiqlangan yetkazib beruvchilar",
+      "Havo va dengiz orqali yetkazib berishni biz amalga oshiramiz",
+      "Shaffof narxlar — yashirin to‘lovlarsiz",
+      "Butun O‘zbekiston bo‘ylab eshikkacha yetkazib berish"
+    ],
+    "button": "Hozir importni boshlang",
+    "imageText": "Ta’minot zanjiringizni soddalashtiramiz — import, yuk tashish va yetkazib berish bizning zimmamizda."
+  },
+  "nav": {
+    "title": "Import Goods",
+    "links": {
+      "catalog": "Ulgurji Katalog",
+      "brands": "Brendlar",
+      "retailer": "Chakana Sotuvchi",
+      "about": "Biz haqimizda",
+      "careers": "Bo‘sh ish o‘rinlari",
+      "services": "Xizmatlar",
+      "blog": "Blog",
+      "faq": "Ko‘p so‘raladigan savollar",
+      "contact": "Aloqa"
+    },
+    "button": "MAHSULOT IMPORTI"
+  },
+  "register": {
+    "title": "Biznes hisobingizni yarating",
+    "companyName": "Kompaniya nomi",
+    "companyNamePlaceholder": "Kompaniyangiz nomi",
+    "phone": "Telefon",
+    "phonePlaceholder": "Telefon raqamingiz",
+    "email": "Email",
+    "emailPlaceholder": "Email manzilingizni kiriting",
+    "password": "Parol",
+    "passwordPlaceholder": "Parol yarating",
+    "confirmPassword": "Parolni tasdiqlang",
+    "confirmPasswordPlaceholder": "Parolni qaytadan kiriting",
+    "submit": "Ro‘yxatdan o‘tish",
+    "submitting": "Ro‘yxatdan o‘tilmoqda...",
+    "passwordMismatch": "Parollar mos emas",
+    "registrationFailed": "Ro‘yxatdan o‘tishda xatolik yuz berdi",
+    "alreadyRegistered": "Ro‘yxatdan o‘tganmisiz?",
+    "loginHere": "Kirish"
+  },
+  "login": {
+    "title": "Xush kelibsiz",
+    "email": "Email",
+    "emailPlaceholder": "Emailingizni kiriting",
+    "password": "Parol",
+    "passwordPlaceholder": "Parolingizni kiriting",
+    "remember": "Eslab qolish",
+    "forgot": "Parolni unutdingizmi?",
+    "button": "Kirish",
+    "loggingIn": "Kirilmoqda...",
+    "noAccount": "Hisobingiz yo‘qmi?",
+    "registerHere": "Ro‘yxatdan o‘ting",
+    "loginFailed": "Login ma'lumotlari noto‘g‘ri."
+  },
+  "forgotPassword": {
+    "title": "Parolingizni unutdingizmi?",
+    "description": "Elektron pochta manzilingizni kiriting, biz sizga parolni tiklash havolasini yuboramiz.",
+    "emailLabel": "Elektron pochta",
+    "emailPlaceholder": "Email manzilingizni kiriting",
+    "sendButton": "Tiklash havolasini yuborish",
+    "success": "✅ Tiklash havolasi yuborildi! Iltimos, pochta qutingizni tekshiring."
+  },
+  "resetPassword": {
+    "title": "Parolingizni tiklang 🔐",
+    "description": "Hisobingiz uchun yangi parol kiriting.",
+    "newPasswordLabel": "Yangi parol",
+    "newPasswordPlaceholder": "Yangi parol kiriting",
+    "confirmPasswordLabel": "Parolni tasdiqlang",
+    "confirmPasswordPlaceholder": "Yangi parolni qayta kiriting",
+    "submit": "Parolni tiklash",
+    "success": "✅ Parol muvaffaqiyatli tiklandi. Kirish sahifasiga yo'naltirilmoqda...",
+    "errorMismatch": "Parollar mos emas"
+  },
+  "registerSuccess": {
+    "title": "Ro‘yxatdan o‘tish muvaffaqiyatli yakunlandi 🎉",
+    "thanks": "Biznes akkauntingizni ro‘yxatdan o‘tkazganingiz uchun rahmat.",
+    "review": "Arizangiz ko‘rib chiqilmoqda. Tasdiqlangach, sizga email orqali xabar beramiz.",
+    "home": "Bosh sahifaga qaytish"
+  },
+  "accountPending": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "title": "Hisob tasdiqlanishi kutilmoqda",
+    "description": "Hisobingiz ko'rib chiqilmoqda. Tasdiqlangach sizga xabar beramiz.",
+    "email": "Elektron pochta",
+    "companyName": "Kompaniya nomi",
+    "phone": "Telefon raqami",
+    "status": "Holat",
+    "pending": "Kutilmoqda",
+    "approved": "Tasdiqlandi",
+    "rejected": "Rad etildi"
+  },
+  "footer": {
+    "pages": "Sahifalar",
+    "contact": "Aloqa",
+    "newsletter": "Yangiliklar",
+    "newsletterNote": "Pochtamizga yoziling:",
+    "subscribe": "Obuna bo'lish",
+    "channels": "Ijtimoiy tarmoqlar",
+    "address": "Toshkent shahri, Olmazor tumani, Universitet MFY, 12-UY 7-Xonadon",
+    "email": "contract@importgoods.uz",
+    "phone": "+998 (90) 910 08 83",
+    "copyright": "Barcha huquqlar himoyalangan.",
+    "links": {
+      "home": "Bosh sahifa",
+      "brands": "Brendlar",
+      "wholesale": "Ulgurji"
+    }
+  }
+}
