@@ -1,3 +1,4 @@
+"use client";
 import { usePlaceOrder } from "@/hooks/useCheckout";
 import { useCartStore } from "@/store/cartStore";
 import { useRouter } from "next/navigation";

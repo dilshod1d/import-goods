@@ -1,8 +1,9 @@
-import { useCartStore } from '@/store/cartStore';
-import CartItemCard from '@/components/cart/CartItemCard';
-import CartSummary from '@/components/cart/CartSummary';
-import { useCartPricing } from '@/hooks/useCheckout';
-import { useEffect, useState } from 'react';
+"use client";
+import { useCartStore } from "@/store/cartStore";
+import CartItemCard from "@/components/cart/CartItemCard";
+import CartSummary from "@/components/cart/CartSummary";
+import { useCartPricing } from "@/hooks/useCheckout";
+import { useEffect, useState } from "react";
 
 export default function CartPage() {
   const cartItems = useCartStore((s) => s.items);

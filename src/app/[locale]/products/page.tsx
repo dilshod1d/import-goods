@@ -1,5 +1,6 @@
-import { useProducts } from '@/hooks/useProducts';
-import ProductGrid from '@/components/product/ProductGrid';
+"use client";
+import { useProducts } from "@/hooks/useProducts";
+import ProductGrid from "@/components/product/ProductGrid";
 
 export default function ProductsPage() {
   const { data, isLoading } = useProducts();

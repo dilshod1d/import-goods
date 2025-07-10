@@ -1,3 +1,4 @@
+"use client"
 import { useProducts } from '@/hooks/useProducts';
 import ProductTable from '@/components/admin/ProductTable';
 

@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { TieredPrice } from '@/types/product';
+import axios from "axios";
+import { TieredPrice } from "@/types/tieredPrice";
 
 export interface Product {
   _id: string;
@@ -15,7 +15,7 @@ export interface Product {
 }
 
 export const fetchAllProducts = async (): Promise<Product[]> => {
-  const res = await axios.get('/api/products');
+  const res = await axios.get("/api/products");
   return res.data;
 };
 
@@ -25,7 +25,7 @@ export const fetchProductById = async (id: string): Promise<Product> => {
 };
 
 export const createProduct = async (data: Partial<Product>) => {
-  const res = await axios.post('/api/admin/products', data);
+  const res = await axios.post("/api/admin/products", data);
   return res.data;
 };
 

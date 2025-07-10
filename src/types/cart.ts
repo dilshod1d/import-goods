@@ -1,4 +1,4 @@
-import { TieredPrice } from './product';
+import { TieredPrice } from './tieredPrice';
 
 export interface CartItem {
   productId: string;

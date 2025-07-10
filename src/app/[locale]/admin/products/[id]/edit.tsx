@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/router";
 import { useProduct, useUpdateProduct } from "@/hooks/useProducts";
 import ProductForm from "@/components/admin/ProductForm";
