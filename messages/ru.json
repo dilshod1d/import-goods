@@ -11,7 +11,10 @@
     "addressLabel": "Адрес",
     "placeholderName": "Ваше полное имя",
     "placeholderPhone": "+998 90 123 4567",
-    "placeholderMessage": "Напишите ваше сообщение..."
+    "placeholderMessage": "Напишите ваше сообщение...",
+    "successMessage": "✅ Сообщение успешно отправлено!",
+    "genericError": "❌ Что-то пошло не так.",
+    "serverError": "❌ Ошибка сервера. Пожалуйста, попробуйте позже."
   },
   "hero": {
     "titleTop": "Прямо от",

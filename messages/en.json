@@ -11,7 +11,10 @@
     "addressLabel": "Address",
     "placeholderName": "Your full name",
     "placeholderPhone": "+998 90 123 4567",
-    "placeholderMessage": "Write your message..."
+    "placeholderMessage": "Write your message...",
+    "successMessage": "✅ Message sent successfully!",
+    "genericError": "❌ Something went wrong.",
+    "serverError": "❌ Server error. Please try again later."
   },
   "hero": {
     "titleTop": "Direct from",

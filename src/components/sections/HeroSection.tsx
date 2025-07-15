@@ -56,7 +56,7 @@ export default function WowHeroParallax() {
           className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight"
         >
           {t("titleTop")}{" "}
-          <span className="text-orange-500">{t("titleMakers")}</span> to
+          <span className="text-orange-500 mr-2">{t("titleMakers")}</span>
           {t("titleMarket")}
         </motion.h1>
 

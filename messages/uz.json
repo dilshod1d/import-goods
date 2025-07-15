@@ -11,7 +11,10 @@
     "addressLabel": "Manzil",
     "placeholderName": "To‘liq ismingiz",
     "placeholderPhone": "+998 90 123 4567",
-    "placeholderMessage": "Xabaringizni yozing..."
+    "placeholderMessage": "Xabaringizni yozing...",
+    "successMessage": "✅ Xabaringiz muvaffaqiyatli yuborildi!",
+    "genericError": "❌ Nimadir noto‘g‘ri ketdi.",
+    "serverError": "❌ Serverda xatolik. Iltimos, keyinroq urinib ko‘ring."
   },
   "hero": {
     "titleTop": "To'g'ridan-to'g'ri",

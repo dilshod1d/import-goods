@@ -60,7 +60,7 @@ export default function FooterSection() {
             <input
               type="email"
               placeholder="Your email"
-              className="px-4 py-2 rounded-md bg-white/10 text-sm text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="form-input"
             />
             <button
               type="submit"

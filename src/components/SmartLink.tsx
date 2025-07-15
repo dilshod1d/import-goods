@@ -6,9 +6,15 @@ type Props = {
   href: string;
   children: React.ReactNode;
   className?: string;
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
-export default function SmartLink({ href, children, className }: Props) {
+export default function SmartLink({
+  href,
+  children,
+  className,
+  onClick,
+}: Props) {
   const currentPath = usePathname();
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -17,6 +23,9 @@ export default function SmartLink({ href, children, className }: Props) {
     if (el) {
       e.preventDefault();
       el.scrollIntoView({ behavior: "smooth" });
+    }
+    if (onClick) {
+      onClick(e);
     }
   };
 
@@ -29,7 +38,7 @@ export default function SmartLink({ href, children, className }: Props) {
   }
 
   return (
-    <IntlLink href={href} className={className}>
+    <IntlLink href={href} className={className} onClick={onClick}>
       {children}
     </IntlLink>
   );

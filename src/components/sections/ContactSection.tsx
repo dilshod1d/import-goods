@@ -1,4 +1,5 @@
 "use client";
+import api from "@/api/api";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -6,6 +7,10 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function ContactSection() {
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
+  const [status, setStatus] = useState<null | {
+    type: "success" | "error";
+    message: string;
+  }>(null);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -13,10 +18,30 @@ export default function ContactSection() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", form);
-    // Add actual send logic here
+
+    try {
+      const res = await api.post("/contact", form); // Automatically uses baseURL
+
+      if (res.data?.success) {
+        setStatus({ type: "success", message: t("successMessage") });
+
+        setForm({ name: "", phone: "", message: "" });
+        setTimeout(() => setStatus(null), 4000);
+      } else {
+        setStatus({
+          type: "error",
+          message: res.data?.error || t("genericError"),
+        });
+      }
+    } catch (err: any) {
+      console.error("Submission error:", err);
+      setStatus({
+        type: "error",
+        message: err?.response?.data?.error || t("serverError"),
+      });
+    }
   };
   const t = useTranslations("contact");
 
@@ -57,7 +82,7 @@ export default function ContactSection() {
                   href="mailto:contract@importgoods.uz"
                   className="text-gray-700 hover:underline"
                 >
-                  contract@importgoods.uz
+                  importgoods@importgoods.uz
                 </a>
               </div>
             </li>
@@ -85,6 +110,17 @@ export default function ContactSection() {
             ></iframe>
           </div>
         </div>
+        {status && (
+          <div
+            className={`p-4 rounded-lg text-sm font-medium ${
+              status.type === "success"
+                ? "bg-green-100 text-green-800"
+                : "bg-red-100 text-red-800"
+            }`}
+          >
+            {status.message}
+          </div>
+        )}
 
         {/* Right: Contact Form */}
         <form
@@ -101,7 +137,7 @@ export default function ContactSection() {
               value={form.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 outline-none"
+              className="form-input"
               placeholder={t("placeholderName")}
             />
           </div>
@@ -116,7 +152,7 @@ export default function ContactSection() {
               value={form.phone}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 outline-none"
+              className="form-input"
               placeholder={t("placeholderPhone")}
             />
           </div>
@@ -131,7 +167,7 @@ export default function ContactSection() {
               onChange={handleChange}
               required
               rows={5}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 outline-none"
+              className="form-input"
               placeholder={t("placeholderMessage")}
             ></textarea>
           </div>

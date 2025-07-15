@@ -1,16 +1,39 @@
-import { TieredPrice } from "./tieredPrice";
+export interface AttributeValue {
+  id: string;
+  value: string;
+  image?: string;
+}
 
-export interface Product {
+export interface Attribute {
   _id: string;
   name: string;
-  description?: string;
+  values: AttributeValue[];
+}
+
+export interface Variant {
   sku: string;
-  category?: string;
-  images: string[];
-  moq: number;
-  tieredPricing: TieredPrice[];
+  price: number;
   stock: number;
+  images: string[];
+  attributes: {
+    attribute: string; // Attribute _id
+    valueId: string; // AttributeValue id
+  }[];
+}
+
+export interface Category {
+  _id: string;
+  name: string;
+  parent: Category | null;
+}
+
+export interface Product {
+  _id?: string;
+  name: string;
+  description?: string;
+  baseSku: string;
+  category?: string;
+  moq: number;
   isActive: boolean;
-  createdAt: string;
-  updatedAt: string;
+  variants: Variant[];
 }
